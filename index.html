@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc mừng 20/10!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fbe9e7;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            color: #e91e63;
+            margin-top: 50px;
+        }
+        .message-box {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            padding: 30px;
+            max-width: 600px;
+            margin: 30px auto;
+        }
+        .message {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .heart {
+            font-size: 50px;
+            color: #e91e63;
+        }
+        .signature {
+            font-style: italic;
+            color: #777;
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: #e91e63;
+            color: #fff;
+            padding: 10px;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        .button:hover span {
+            padding-right: 25px;
+        }
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chúc mừng 20/10 người yêu của anh!</h1>
+    
+    <div class="message-box">
+        <div class="message">
+            Nhân ngày Phụ Nữ Việt Nam, anh muốn gửi đến em những lời chúc yêu thương và chân thành nhất. Cảm ơn em vì đã luôn ở bên cạnh anh, mang đến niềm vui và hạnh phúc cho cuộc sống của anh. Chúc em mãi xinh đẹp, rạng rỡ và luôn cười thật tươi mỗi ngày. Anh yêu em!
+        </div>
+        <div class="heart">💖</div>
+        <div class="signature">
+            <button class="button" style="vertical-align:middle" onclick="window.location.href='tim.html';">
+                <span>Click me </span>
+            </button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        © 2024 Lời chúc từ trái tim anh dành cho em
+    </div>
+</body>
+</html>
